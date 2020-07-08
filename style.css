@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .box {
   display: inline;
   padding: 1px;
@@ -86,4 +91,11 @@ footer {
 }
 .vertical-menu a:hover {
   background-color: #cff;
+}
+@media screen and (max-width: 640px) {
+  aside,
+  section {
+    float: none;
+    width: auto;
+  }
 }
