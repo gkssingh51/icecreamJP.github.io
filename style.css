@@ -1,0 +1,89 @@
+.box {
+  display: inline;
+  padding: 1px;
+
+  border-style: dashed 1px white;
+  float: right;
+  position: sticky;
+  overflow: hidden;
+  transition-property: initial;
+  color: white;
+  size: 50%;
+  border: none;
+  color: #eff;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.navbar {
+  background-color: #151410;
+  border-radius: 5px;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.pl {
+  border-radius: 25px;
+  padding: 2px;
+}
+.side {
+  position: absolute;
+  display: block;
+  margin: 4px;
+  padding: 5px;
+}
+.head {
+  padding: 5px;
+}
+a:link {
+  background-color: #333;
+  text-decoration: none;
+}
+section {
+  float: right;
+  width: 70%;
+  line-height: 1.5;
+}
+.pic {
+  display: block;
+  margin: auto;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 30px;
+  margin-top: -200px;
+  text-align: center;
+  background-color: #151410;
+  color: aliceblue;
+}
+.box:hover {
+  background-color: #eff;
+  color: black;
+}
+.Term {
+  background-color: #cff;
+  width: 25%;
+  height: 30px;
+  text-align: center;
+  color: #339;
+  padding-top: 5px;
+}
+.vertical-menu {
+  width: 25%;
+}
+
+.vertical-menu a {
+  background-color: #eff;
+  color: #339;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+.vertical-menu a:hover {
+  background-color: #cff;
+}
